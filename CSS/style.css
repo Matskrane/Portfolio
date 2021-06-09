@@ -48,6 +48,7 @@ img {
   max-width: 97%;
   align-items: center;
   height: 100%;
+  max-width: 1100px;
 }
 
 .navbar ul {
