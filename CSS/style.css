@@ -388,8 +388,45 @@ iframe {
     
   }
 
+  .container-grid {
+    grid-template-rows: repeat(2, 1fr);
+    padding-top: 0;
+  }
+
+  .projects-grid {
+    padding-bottom: 50px;
+    text-align: center;
+    padding-left: 10%;
+  }
+
+  .intro-text {
+    margin: auto;
+  }
+
+  .profile-image {
+    text-align: center;
+  }
+
+  .image-container {
+    margin-top: 20px;
+  }
+
+  
+
 }
 
+
+
+@media (max-width:800px) {
+  .profile-image img {
+    width: 50%;
+  }
+
+  .projects-grid {
+    padding: 15px 15px;
+    display: block;
+  }
+}
 
 
 @media (max-width:700px) {
@@ -415,4 +452,44 @@ iframe {
   .my-header ul {
     display: grid;
   }
+
+  
+
+  .image-container {
+    margin: auto;
+    margin-bottom: 30px;
+  }
+
+  .intro-text {
+    text-align: center;
+    margin: auto;
+    padding-right: 0;
+  }
+
+  .intro-text p {
+    max-width: none;
+  }
+
+  .profile-image img {
+    width: 40%;
+  }
+
+  .profile-image {
+    padding-top: 30px;
+  }
+
+  .myself {
+    padding-top: 50px;
+  }
+
+  .blogposts {
+    display: block;
+    padding: 50px 25px;
+  }
+
+  .posts {
+    margin-top: 30px; 
+  }
+
+  
 }
