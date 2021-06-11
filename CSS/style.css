@@ -411,4 +411,9 @@ iframe {
   .name {
     text-align: center;
   }
+
+  .my-header ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
