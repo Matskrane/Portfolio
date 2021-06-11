@@ -372,7 +372,6 @@ iframe {
 
   .container-grid {
     grid-template-rows: repeat(2, 1fr);
-    padding-top: 0;
   }
 
   .projects-grid {
@@ -435,8 +434,6 @@ iframe {
     display: grid;
   }
 
-  
-
   .image-container {
     margin: auto;
     margin-bottom: 30px;
@@ -475,6 +472,14 @@ iframe {
 
   .passions i {
     font-size: 15px;
+  }
+
+  .image-container {
+    height: 520px;
+  }
+
+  .myself h2 {
+    border-width: 3px;
   }
 
   
