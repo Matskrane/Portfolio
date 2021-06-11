@@ -45,7 +45,6 @@ img {
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
-  max-width: 97%;
   align-items: center;
   height: 100%;
   max-width: 1100px;
@@ -355,4 +354,61 @@ iframe {
   color: #000;
   font-size: 22px;
   display: block;
+}
+
+
+
+/* Media queries */
+
+@media (max-width:1100px) {
+
+  .about {
+    padding: 0 15px;
+  }
+
+  .myself {
+    padding: 0 20px;
+    padding-top: 150px;
+  }
+  
+  .list-grid {
+    display: block;
+  }
+
+  .education,
+  .experience,
+  .skills,
+  .passions {
+    padding-left: 0;
+    max-width: 80%;
+  }
+
+  .skills ul {
+    grid-template-columns: repeat(2, 1fr);
+    
+  }
+
+}
+
+
+
+@media (max-width:700px) {
+  
+  .navbar .container-flex {
+    display: grid;
+    justify-content: inherit;
+  }
+
+  .navbar ul {
+    display: block;
+    text-align: center;
+  }
+
+  .navbar li {
+    padding: 20px 0;
+  }
+
+  .name {
+    text-align: center;
+  }
 }
